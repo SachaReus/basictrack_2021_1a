@@ -1,6 +1,13 @@
-sentence_1 = "All work"
-sentence_2 = "and no play"
-sentence_3 = "makes Jack"
-sentence_4 = "a dull boy."
+#variables
+a = "All"
+b = "work"
+c = "and"
+d = "no"
+e = "play"
+f = "makes"
+g = "Jack"
+h = "a"
+i = "dull"
+j = "boy."
 
-print(sentence_1, sentence_2, sentence_3, sentence_4)
+print(a, b, c, d, e, f, g, h, i, j)

@@ -1,4 +1,5 @@
-version_a = 6 * 1 - 2
-version_b = 6 * (1 - 2)
+original = 6 * 1 - 2
+rewritten = 6 * (1 - 2)
 
-print(version_a, version_b)
+print(original)
+print(rewritten)
