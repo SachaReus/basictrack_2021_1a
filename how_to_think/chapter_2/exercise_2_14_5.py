@@ -1,14 +1,14 @@
 #get information
-P = int(input("please give me the principal amount"))
-r = int(input("please give me the annual nominal interest rate"))
-n = int(input("please give me the number of times the interest is compounded per year"))
-t = int(input("please give me the number of years"))
+principal_amount = int(input("please give me the principal amount"))
+interest_rate = int(input("please give me the annual nominal interest rate"))
+frequency_per_year = int(input("please give me the number of times the interest is compounded per year"))
+number_of_years = int(input("please give me the number of years"))
 
 #calculations
-A = ((P*(1+(r/n)))**(n*t))
+final_number = principal_amount * (1+(interest_rate/frequency_per_year)) ** (frequency_per_year*number_of_years)
 
 #output
-print(A)
+print(final_number)
 
 
 
