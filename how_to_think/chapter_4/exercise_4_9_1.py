@@ -1,16 +1,18 @@
 import turtle
 
+
 def draw_square(animal, size):
     for _ in range(4):
         animal.forward(size)
         animal.left(90)
 
+
 window = turtle.Screen()
-window.bgcolor("lightgreen")
+window.bgcolor("light-green")
 
 raphael = turtle.Turtle()
 raphael.shape("arrow")
-raphael.color("hotpink")
+raphael.color("hot-pink")
 raphael.pensize(5)
 
 size = 20

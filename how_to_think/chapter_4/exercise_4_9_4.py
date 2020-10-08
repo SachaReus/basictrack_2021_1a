@@ -1,12 +1,14 @@
 import turtle
 
-def draw_square (animal):
+
+def draw_square(animal):
     for _ in range(4):
         animal.forward(90)
         animal.left(90)
 
+
 window = turtle.Screen()
-window.bgcolor("lightgreen")
+window.bgcolor("light-green")
 raphael = turtle.Turtle()
 raphael.color("blue")
 raphael.pensize(3)

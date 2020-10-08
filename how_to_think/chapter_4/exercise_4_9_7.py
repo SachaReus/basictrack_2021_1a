@@ -4,4 +4,5 @@ def sum_to(n):
         sum += number
     return sum
 
+
 print(sum_to(10))

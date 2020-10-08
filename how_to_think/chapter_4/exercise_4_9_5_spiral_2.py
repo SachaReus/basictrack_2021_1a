@@ -1,7 +1,7 @@
 import turtle
 
 window = turtle.Screen()
-window.bgcolor("lightgreen")
+window.bgcolor("light-green")
 raphael = turtle.Turtle()
 raphael.color("blue")
 raphael.pensize(2)
