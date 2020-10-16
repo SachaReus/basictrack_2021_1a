@@ -29,7 +29,7 @@ def count_words_containing(quote, letter_to_count):
 no_words = count_words(tog_quote)
 letter = "e"
 no_words_containing_e = count_words_containing(tog_quote, letter)
-percentage = 100 * (no_words_containing_e/no_words)
+percentage = 100 * ( no_words_containing_e/no_words)
 
 print("your text contains {} words, of which {} ({:.1f}%) contain an \"{}\"."
       .format(no_words, no_words_containing_e, percentage, letter))
